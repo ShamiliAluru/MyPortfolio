@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shamili Aluru — Engineer's Field Notes &amp; Portfolio</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            parchment: "#FBF9F2",
+            "parchment-low": "#F6F4ED",
+            "parchment-card": "#FFFFFF",
+            "parchment-border": "#E4E0D5",
+            "parchment-border-subtle": "#EDE8DE",
+            navy: {
+              900: "#0F172A",
+              800: "#1E293B",
+              700: "#334155",
+              600: "#475569",
+              500: "#64748B",
+              400: "#94A3B8"
+            },
+            accent: {
+              blue: "#2563EB",
+              "blue-hover": "#1D4ED8",
+              "blue-subtle": "#EFF6FF",
+              orange: "#EA580C",
+              "orange-subtle": "#FFF7ED"
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .grid-bg {
+      background-color: #FBF9F2;
+      background-image: 
+        linear-gradient(to right, rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+    ::selection {
+      background-color: #DBEAFE;
+      color: #1E3A8A;
+    }
+  </style>
+</head>
+<body class="bg-parchment text-navy-800 font-sans antialiased selection:bg-blue-100 selection:text-blue-900 grid-bg min-h-screen relative flex flex-col">
+<!-- TOP NAVIGATION -->
+<header class="sticky top-0 z-40 w-full bg-parchment/95 backdrop-blur-md border-b border-parchment-border">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+<!-- Brand / Title -->
+<a class="flex items-center gap-3 group" href="#hero">
+<div class="w-8 h-8 rounded border border-navy-900/15 bg-white flex items-center justify-center font-mono font-bold text-xs text-navy-900 shadow-sm group-hover:border-accent-blue transition-colors">
+        SA
+      </div>
+<div class="flex flex-col">
+<span class="font-bold text-sm tracking-tight text-navy-900 group-hover:text-accent-blue transition-colors">Shamili Aluru</span>
+<span class="font-mono text-[11px] text-navy-600 tracking-tight">Engineer's Field Notes</span>
+</div>
+</a>
+<!-- Navigation Links (No Résumé Button) -->
+<nav class="flex items-center gap-4 sm:gap-6 font-medium text-xs tracking-wide text-navy-700 overflow-x-auto py-2">
+<a class="hover:text-accent-blue transition-colors whitespace-nowrap" href="#projects">Projects</a>
+<a class="hover:text-accent-blue transition-colors whitespace-nowrap" href="#toolkit">Toolkit</a>
+<a class="hover:text-accent-blue transition-colors whitespace-nowrap" href="#experience">Experience</a>
+<a class="hover:text-accent-blue transition-colors whitespace-nowrap" href="#certificates">Certificates</a>
+<a class="hover:text-accent-blue transition-colors whitespace-nowrap" href="#education">Education</a>
+<a class="hover:text-accent-blue transition-colors whitespace-nowrap" href="#about">About</a>
+<a class="hover:text-accent-blue transition-colors whitespace-nowrap" href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+<!-- MAIN CONTENT -->
+<main class="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 flex flex-col gap-16 sm:gap-24">
+<!-- 1. HERO SECTION -->
+<section class="relative pt-4 sm:pt-8 border-b border-parchment-border pb-12 sm:pb-16" id="hero">
+<div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start justify-between">
+<div class="flex-1 max-w-2xl flex flex-col gap-5">
+<div class="inline-flex items-center gap-2 self-start px-2.5 py-1 rounded bg-white border border-parchment-border font-mono text-[11px] text-navy-700 shadow-sm">
+<span class="font-bold text-accent-orange">[FIELD_NOTES // LOG]</span>
+<span>HYD, IN • IT • DATA • ML</span>
+</div>
+<h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-navy-900 tracking-tight leading-[1.15]">
+          I build data-driven applications that turn analysis into useful tools.
+        </h1>
+<p class="text-base sm:text-lg text-navy-700 leading-relaxed font-normal">
+          Open to entry-level technical opportunities across software development, data, and applied machine learning.
+        </p>
+<div class="p-3.5 rounded border border-parchment-border bg-white flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs font-mono shadow-sm">
+<span class="text-navy-900 font-medium">Final-year B.Tech in Information Technology, Sreenidhi Institute of Science and Technology (SNIST)</span>
+<span class="inline-block px-2 py-0.5 rounded bg-blue-50 text-accent-blue font-semibold whitespace-nowrap self-start sm:self-auto border border-blue-200">GPA 8.9/10</span>
+</div>
+<div class="flex flex-wrap items-center gap-3 pt-2">
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded bg-navy-900 text-white font-medium text-xs sm:text-sm hover:bg-accent-blue transition-colors shadow-sm" href="#projects">
+<span>Explore Projects</span>
+<span class="material-symbols-outlined text-[16px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded bg-white border border-navy-900/30 text-navy-900 font-medium text-xs sm:text-sm hover:border-navy-900 hover:bg-parchment-low transition-colors shadow-sm" href="#contact">
+<span>Contact</span>
+<span class="material-symbols-outlined text-[16px] text-accent-blue">mail</span>
+</a>
+<div class="flex items-center gap-2 pl-2">
+<a class="p-2 rounded border border-parchment-border bg-white text-navy-700 hover:text-navy-900 hover:border-navy-900 transition-colors shadow-sm" href="https://github.com/ShamiliAluru" rel="noopener noreferrer" target="_blank" title="GitHub">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+</a>
+<a class="p-2 rounded border border-parchment-border bg-white text-navy-700 hover:text-navy-900 hover:border-navy-900 transition-colors shadow-sm" href="https://www.linkedin.com/in/shamili-aluru-9035012b2" rel="noopener noreferrer" target="_blank" title="LinkedIn">
+<span class="material-symbols-outlined text-[18px]">hub</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Engineering Log Side Metadata -->
+<div class="w-full lg:w-80 p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col gap-4 font-mono text-xs">
+<div class="flex items-center justify-between border-b border-parchment-border pb-2.5">
+<span class="font-bold text-navy-900 uppercase tracking-wider text-[11px]">System Specs</span>
+<span class="text-accent-blue text-[11px]">LOG_INDEX: #01</span>
+</div>
+<div class="space-y-2.5">
+<div>
+<div class="text-[10px] text-navy-400 uppercase">Focus Areas</div>
+<div class="text-navy-800 font-sans font-medium text-xs mt-0.5">Software Dev • Applied ML • Data Pipelines</div>
+</div>
+<div>
+<div class="text-[10px] text-navy-400 uppercase">Current Status</div>
+<div class="text-emerald-700 font-sans font-medium text-xs mt-0.5 flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+              Active Candidate // Relocatable
+            </div>
+</div>
+<div>
+<div class="text-[10px] text-navy-400 uppercase">Academic Standing</div>
+<div class="text-navy-800 font-sans font-medium text-xs mt-0.5">Final-Year B.Tech (IT) · SNIST · GPA 8.9/10</div>
+</div>
+<div>
+<div class="text-[10px] text-navy-400 uppercase">Core Stack</div>
+<div class="text-navy-700 text-[11px] mt-0.5 font-mono">Python, Java, JavaScript, SQL, scikit-learn</div>
+</div>
+</div>
+<div class="pt-2 border-t border-parchment-border text-[10px] text-navy-400 leading-normal">
+          * Engineering notebook documenting verified implementations, pipelines, and validated coursework.
+        </div>
+</div>
+</div>
+</section>
+<!-- 2. THREE SELECTED PROJECTS -->
+<section class="space-y-6" id="projects">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-parchment-border pb-3">
+<div>
+<span class="font-mono text-xs font-semibold text-accent-blue uppercase tracking-wider">SECTION 02 // LAB ARTIFACTS</span>
+<h2 class="text-2xl sm:text-3xl font-bold text-navy-900 tracking-tight mt-0.5">Featured Projects</h2>
+</div>
+<p class="font-mono text-xs text-navy-600">3 Core Implementations</p>
+</div>
+<div class="grid grid-cols-1 gap-6">
+<!-- Project 1: Hyderabad Home Price Studio -->
+<article class="p-6 rounded border border-parchment-border bg-white shadow-sm flex flex-col lg:flex-row gap-6 hover:border-navy-900/40 transition-all">
+<div class="lg:w-2/5 p-4 rounded bg-parchment-low border border-parchment-border-subtle flex flex-col justify-between font-mono">
+<div class="flex items-center justify-between text-[11px]">
+<span class="text-accent-orange font-semibold">PREDICTION_PIPELINE.PY</span>
+<span class="px-1.5 py-0.5 rounded bg-white text-navy-700 border border-parchment-border">Nested CV</span>
+</div>
+<div class="py-6 flex flex-col items-center justify-center text-center">
+<svg class="w-full h-24 text-accent-blue/80" fill="none" viewbox="0 0 240 100">
+<path d="M10 85 Q 90 65, 140 40 T 230 15" stroke="currentColor" stroke-linecap="round" stroke-width="2.5"></path>
+<circle cx="50" cy="74" fill="#EA580C" r="3.5"></circle>
+<circle cx="100" cy="58" fill="#EA580C" r="3.5"></circle>
+<circle cx="150" cy="36" fill="#EA580C" r="3.5"></circle>
+<circle cx="190" cy="24" fill="#EA580C" r="3.5"></circle>
+<line stroke="#CBD5E1" stroke-dasharray="3 3" x1="10" x2="230" y1="90" y2="90"></line>
+</svg>
+<span class="text-[10px] text-navy-600 mt-2 font-mono">scikit-learn Regressor vs Median Baseline</span>
+</div>
+<div class="text-[11px] text-navy-600 flex justify-between border-t border-parchment-border pt-2">
+<span>Built-up Area &amp; Amenities</span>
+<span class="text-emerald-700">Validated Evaluation</span>
+</div>
+</div>
+<div class="lg:w-3/5 flex flex-col justify-between gap-4">
+<div>
+<div class="flex flex-wrap items-center gap-2 mb-2 font-mono text-[11px]">
+<span class="px-2 py-0.5 rounded bg-blue-50 text-accent-blue font-semibold">Predictive Modeling</span>
+<span class="text-navy-400">•</span>
+<span class="text-navy-600">Regression Pipeline</span>
+</div>
+<h3 class="text-xl font-bold text-navy-900 tracking-tight">Hyderabad Home Price Studio</h3>
+<p class="text-sm text-navy-700 mt-2 leading-relaxed">
+              An interactive app that estimates Hyderabad home prices using built-up area, locality, bedroom count, resale status, and selected amenities. It uses a scikit-learn pipeline, evaluates model performance with nested cross-validation, and compares it with a median-price baseline. Users can explore the dataset and how an estimate is produced.
+            </p>
+<div class="mt-3 p-2.5 rounded bg-parchment-low border border-parchment-border-subtle text-[11px] font-mono text-navy-600">
+<strong class="text-navy-800">Data Note:</strong> The ₹ display is inferred from the Hyderabad context. The source data has no explicit currency or collection date, so estimates are not live-market valuations.
+            </div>
+</div>
+<div class="space-y-3">
+<div class="flex flex-wrap gap-1.5 font-mono text-[11px]">
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">Python</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">Streamlit</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">pandas</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">scikit-learn</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">NumPy</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">Plotly</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">joblib</span>
+</div>
+<div class="flex items-center gap-4 pt-1 text-xs font-mono">
+<a class="inline-flex items-center gap-1 text-accent-blue font-semibold hover:underline" href="https://house-price-prediction-model-mt3arlqnihcsa3cdcrmatc.streamlit.app/" rel="noopener noreferrer" target="_blank">
+<span>Live App</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+<span class="text-parchment-border">•</span>
+<a class="inline-flex items-center gap-1 text-navy-700 hover:text-navy-900" href="https://github.com/ShamiliAluru/House-Price-Prediction-Model" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[14px]">code</span>
+<span>GitHub Repository</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<!-- Project 2: Sales Analytics — Retail Profitability Analysis -->
+<article class="p-6 rounded border border-parchment-border bg-white shadow-sm flex flex-col lg:flex-row gap-6 hover:border-navy-900/40 transition-all">
+<div class="lg:w-2/5 p-4 rounded bg-parchment-low border border-parchment-border-subtle flex flex-col justify-between font-mono">
+<div class="flex items-center justify-between text-[11px]">
+<span class="text-accent-blue font-semibold">RETAIL_PROFITABILITY.SQL</span>
+<span class="px-1.5 py-0.5 rounded bg-white text-navy-700 border border-parchment-border">CTEs &amp; Windows</span>
+</div>
+<div class="py-4 flex items-end justify-center gap-3 h-28">
+<div class="w-8 bg-slate-300 rounded-t flex flex-col justify-end items-center pb-1 text-[9px] text-navy-700 h-14">Q1</div>
+<div class="w-8 bg-slate-400 rounded-t flex flex-col justify-end items-center pb-1 text-[9px] text-white h-18">Q2</div>
+<div class="w-8 bg-accent-blue rounded-t flex flex-col justify-end items-center pb-1 text-[9px] text-white h-22">Q3</div>
+<div class="w-8 bg-accent-orange rounded-t flex flex-col justify-end items-center pb-1 text-[9px] text-white h-28 font-bold">Q4</div>
+</div>
+<div class="text-[11px] text-navy-600 flex justify-between border-t border-parchment-border pt-2">
+<span>Discount Auditing</span>
+<span class="text-navy-700">Relational Modeling</span>
+</div>
+</div>
+<div class="lg:w-3/5 flex flex-col justify-between gap-4">
+<div>
+<div class="flex flex-wrap items-center gap-2 mb-2 font-mono text-[11px]">
+<span class="px-2 py-0.5 rounded bg-orange-50 text-accent-orange font-semibold">Business Intelligence</span>
+<span class="text-navy-400">•</span>
+<span class="text-navy-600">SQL &amp; Relational Analytics</span>
+</div>
+<h3 class="text-xl font-bold text-navy-900 tracking-tight">Sales Analytics — Retail Profitability Analysis</h3>
+<p class="text-sm text-navy-700 mt-2 leading-relaxed">
+              Cleaned and audited retail sales data in Excel, modeled it in MySQL, analyzed sales and discount patterns using SQL CTEs and window functions, and built an interactive Power BI dashboard.
+            </p>
+<div class="mt-3 p-2.5 rounded bg-parchment-low border border-parchment-border-subtle text-[11px] font-mono text-navy-600">
+<strong class="text-navy-800">Opportunity Note:</strong> Pricing and discounting recommendations associated with an estimated $135,000 in potential margin recovery (presented strictly as an estimated opportunity, not realized savings).
+            </div>
+</div>
+<div class="space-y-3">
+<div class="flex flex-wrap gap-1.5 font-mono text-[11px]">
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">Excel</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">MySQL</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">SQL CTEs</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">Power BI</span>
+</div>
+<div class="flex flex-wrap items-center gap-4 pt-1 text-xs font-mono">
+<a class="inline-flex items-center gap-1 text-navy-700 hover:text-navy-900" href="https://github.com/ShamiliAluru/Sales-Analytics" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[14px]">code</span>
+<span>GitHub Repository</span>
+</a>
+<span class="text-parchment-border">•</span>
+<span class="text-navy-500 italic text-[11px]">Public Power BI dashboard not available for hosted viewing</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Project 3: Customer Segmentation Workbench -->
+<article class="p-6 rounded border border-parchment-border bg-white shadow-sm flex flex-col lg:flex-row gap-6 hover:border-navy-900/40 transition-all">
+<div class="lg:w-2/5 p-4 rounded bg-parchment-low border border-parchment-border-subtle flex flex-col justify-between font-mono">
+<div class="flex items-center justify-between text-[11px]">
+<span class="text-accent-blue font-semibold">RFM_SEGMENTATION.PY</span>
+<span class="px-1.5 py-0.5 rounded bg-white text-navy-700 border border-parchment-border">K-Means</span>
+</div>
+<div class="py-4 flex items-center justify-center">
+<svg class="w-full h-24" fill="none" viewbox="0 0 200 90">
+<circle cx="40" cy="30" fill="#2563EB" opacity="0.8" r="4"></circle>
+<circle cx="50" cy="22" fill="#2563EB" opacity="0.8" r="4.5"></circle>
+<circle cx="35" cy="42" fill="#2563EB" opacity="0.8" r="3.5"></circle>
+<circle cx="160" cy="65" fill="#EA580C" opacity="0.8" r="4"></circle>
+<circle cx="145" cy="72" fill="#EA580C" opacity="0.8" r="4.5"></circle>
+<circle cx="170" cy="55" fill="#EA580C" opacity="0.8" r="3.5"></circle>
+<circle cx="110" cy="25" fill="#0F172A" opacity="0.7" r="4"></circle>
+<circle cx="125" cy="35" fill="#0F172A" opacity="0.7" r="3.5"></circle>
+<circle cx="95" cy="38" fill="#0F172A" opacity="0.7" r="4.5"></circle>
+</svg>
+</div>
+<div class="text-[11px] text-navy-600 flex justify-between border-t border-parchment-border pt-2">
+<span>Silhouette Evaluation</span>
+<span class="text-navy-700">Cluster Analysis</span>
+</div>
+</div>
+<div class="lg:w-3/5 flex flex-col justify-between gap-4">
+<div>
+<div class="flex flex-wrap items-center gap-2 mb-2 font-mono text-[11px]">
+<span class="px-2 py-0.5 rounded bg-blue-50 text-accent-blue font-semibold">Unsupervised ML</span>
+<span class="text-navy-400">•</span>
+<span class="text-navy-600">RFM Feature Clustering</span>
+</div>
+<h3 class="text-xl font-bold text-navy-900 tracking-tight">Customer Segmentation Workbench</h3>
+<p class="text-sm text-navy-700 mt-2 leading-relaxed">
+              An interactive app for exploring customer purchasing patterns from transaction data. Users can upload a CSV, review data-quality checks, and segment customers using Recency, Frequency, and Monetary (RFM) features with K-Means clustering. Compares candidate cluster counts using silhouette scores, visualizes segment profiles, and exports customer assignments and report.
+            </p>
+<div class="mt-3 p-2.5 rounded bg-parchment-low border border-parchment-border-subtle text-[11px] font-mono text-navy-600">
+<strong class="text-navy-800">Analytical Scope:</strong> Includes UCI Online Retail dataset and CSV template. Segments describe historical purchasing patterns; they do not predict future behavior.
+            </div>
+</div>
+<div class="space-y-3">
+<div class="flex flex-wrap gap-1.5 font-mono text-[11px]">
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">Python</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">Streamlit</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">pandas</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">scikit-learn</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">Plotly</span>
+<span class="px-2 py-1 rounded bg-parchment-low text-navy-800 border border-parchment-border">openpyxl</span>
+</div>
+<div class="flex items-center gap-4 pt-1 text-xs font-mono">
+<a class="inline-flex items-center gap-1 text-accent-blue font-semibold hover:underline" href="https://ljwofspnfytzokucq3d637.streamlit.app/" rel="noopener noreferrer" target="_blank">
+<span>Live App</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+<span class="text-parchment-border">•</span>
+<a class="inline-flex items-center gap-1 text-navy-700 hover:text-navy-900" href="https://github.com/ShamiliAluru/Customer-Segmentation-Model" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[14px]">code</span>
+<span>GitHub Repository</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- 3. COMPACT TECHNICAL TOOLKIT -->
+<section class="space-y-6" id="toolkit">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-parchment-border pb-3">
+<div>
+<span class="font-mono text-xs font-semibold text-accent-blue uppercase tracking-wider">SECTION 03 // SPECIFICATIONS</span>
+<h2 class="text-2xl sm:text-3xl font-bold text-navy-900 tracking-tight mt-0.5">Technical Toolkit</h2>
+</div>
+<p class="font-mono text-xs text-navy-600">Categorized Competencies &amp; Technologies</p>
+</div>
+<!-- Grouped cards without proficiency bars or percentages -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+<!-- Languages -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 bg-navy-900 rounded-sm"></span>
+<span class="font-mono text-xs font-bold text-navy-900 uppercase tracking-wider">01 // Languages</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Java</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Python</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">JavaScript</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">SQL</span>
+</div>
+</div>
+<p class="text-[11px] text-navy-600 font-mono mt-4 pt-2 border-t border-parchment-border-subtle">
+          Application logic, object orientation &amp; relational querying
+        </p>
+</div>
+<!-- Web -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 bg-accent-blue rounded-sm"></span>
+<span class="font-mono text-xs font-bold text-navy-900 uppercase tracking-wider">02 // Web</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">HTML</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">CSS</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">React</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Node.js</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Express.js</span>
+</div>
+</div>
+<p class="text-[11px] text-navy-600 font-mono mt-4 pt-2 border-t border-parchment-border-subtle">
+          Full-stack web architecture, component UI &amp; RESTful APIs
+        </p>
+</div>
+<!-- Data & Machine Learning -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 bg-accent-orange rounded-sm"></span>
+<span class="font-mono text-xs font-bold text-navy-900 uppercase tracking-wider">03 // Data &amp; Machine Learning</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">pandas</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">NumPy</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">scikit-learn</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">TensorFlow/Keras</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">PyTorch</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Plotly</span>
+</div>
+</div>
+<p class="text-[11px] text-navy-600 font-mono mt-4 pt-2 border-t border-parchment-border-subtle">
+          Feature wrangling, statistical modeling &amp; neural networks
+        </p>
+</div>
+<!-- Databases & Platforms -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 bg-navy-900 rounded-sm"></span>
+<span class="font-mono text-xs font-bold text-navy-900 uppercase tracking-wider">04 // Databases &amp; Platforms</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">MySQL</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">PostgreSQL</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">MongoDB</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Streamlit</span>
+</div>
+</div>
+<p class="text-[11px] text-navy-600 font-mono mt-4 pt-2 border-t border-parchment-border-subtle">
+          Relational schemes, NoSQL document stores &amp; app hosting
+        </p>
+</div>
+<!-- Tools -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 bg-accent-blue rounded-sm"></span>
+<span class="font-mono text-xs font-bold text-navy-900 uppercase tracking-wider">05 // Tools</span>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Power BI</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Excel</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-900 text-xs font-medium">Git</span>
+</div>
+</div>
+<p class="text-[11px] text-navy-600 font-mono mt-4 pt-2 border-t border-parchment-border-subtle">
+          Executive visualization, spreadsheet audits &amp; version control
+        </p>
+</div>
+</div>
+</section>
+<!-- 4. EXPERIENCE & INVOLVEMENT (FACTUAL TIMELINE) -->
+<section class="space-y-6" id="experience">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-parchment-border pb-3">
+<div>
+<span class="font-mono text-xs font-semibold text-accent-blue uppercase tracking-wider">SECTION 04 // TIMELINE</span>
+<h2 class="text-2xl sm:text-3xl font-bold text-navy-900 tracking-tight mt-0.5">Experience &amp; Involvement</h2>
+</div>
+<p class="font-mono text-xs text-navy-600">Chronological Notebook Entries (Newest First)</p>
+</div>
+<!-- Timeline Entries -->
+<div class="relative pl-6 sm:pl-8 space-y-8 before:content-[''] before:absolute before:left-2.5 sm:before:left-3 before:top-2 before:bottom-2 before:w-px before:bg-parchment-border">
+<!-- Item 1: R&D Intern — Student Kare -->
+<div class="relative group">
+<div class="absolute -left-[27px] sm:-left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-navy-900 group-hover:border-accent-blue transition-colors"></div>
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm space-y-2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 font-mono text-xs">
+<span class="px-2 py-0.5 rounded bg-blue-50 text-accent-blue font-semibold self-start sm:self-auto">PRESENT</span>
+<span class="text-navy-500 text-[11px]">Start date not provided</span>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-bold text-navy-900">R&amp;D Intern</h3>
+<p class="text-xs font-mono text-accent-orange font-medium">Student Kare</p>
+</div>
+<p class="text-sm text-navy-700 leading-relaxed">
+            Contribute to R&amp;D involving data management and data privacy. Research responsible data handling, privacy requirements, and applicable government rules.
+          </p>
+</div>
+</div>
+<!-- Item 2: Documentation & Placements Coordinator — CDC SNIST -->
+<div class="relative group">
+<div class="absolute -left-[27px] sm:-left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-navy-900 group-hover:border-accent-blue transition-colors"></div>
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm space-y-2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 font-mono text-xs">
+<span class="px-2 py-0.5 rounded bg-blue-50 text-accent-blue font-semibold self-start sm:self-auto">MAY 2026 – PRESENT</span>
+<span class="text-navy-500 text-[11px]">Campus Placement Operations</span>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-bold text-navy-900">Documentation &amp; Placements Coordinator</h3>
+<p class="text-xs font-mono text-accent-blue font-medium">Career Development Centre (CDC), SNIST</p>
+</div>
+<p class="text-sm text-navy-700 leading-relaxed">
+            Lead documentation and coordination efforts, maintain structured records, support reporting and communication, and contribute to placement activities, training programs, workshops, and student engagement.
+          </p>
+</div>
+</div>
+<!-- Item 3: Machine Learning Intern — SkillCraft Technology -->
+<div class="relative group">
+<div class="absolute -left-[27px] sm:-left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-navy-900 group-hover:border-accent-blue transition-colors"></div>
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm space-y-2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 font-mono text-xs">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border font-semibold self-start sm:self-auto">NOVEMBER 1 – 30, 2025</span>
+<span class="text-navy-500 text-[11px]">ID: SCT/NOV25/1239</span>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-bold text-navy-900">Machine Learning Intern</h3>
+<p class="text-xs font-mono text-accent-orange font-medium">SkillCraft Technology</p>
+</div>
+<p class="text-sm text-navy-700 leading-relaxed">
+            Completed a one-month internship with practical exposure to machine learning concepts and applied technical work.
+          </p>
+<div class="pt-1 flex flex-wrap gap-2">
+<button class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-800 text-xs font-mono transition-colors" onclick="openCertModal('SkillCraft Technology — Machine Learning Internship', 'SkillCraft Technology • Nov 30, 2025', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCP00OsCStOSL48hPL9bXM29sSvKZLsaLMrU49AO6Y2zhA40dW5S1Rlt7Jeo5pkp7yMBmHbPoFer171vvKS-UZPyA6ldDzgJMUR-rnwyBwAyhvnKtm2duCT05TUYGsA2xWzzvCJoZDdhmcOGeVItukAfxKZoXsu0OavQIAHwZCCaZEMG1RU0uLzks99LcwExrBYvzdLo_r6DjnY13nVctMqJKVqgxMq0mOf1DCdtsM-jwO7o1EwGcwDAV84JIMgnoXlTg')">
+<span class="material-symbols-outlined text-[14px] text-accent-blue">verified</span>
+<span>View Certificate</span>
+</button>
+<button class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-800 text-xs font-mono transition-colors" onclick="openCertModal('SkillCraft Technology — Letter of Recommendation', 'Pranav Bansal, Tech Lead • Nov 30, 2025', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCQXW8Ukrqrkj4ms4i-Daj5ZyPbBN5CVMR2EZL03YBjE6xdfXWxTkNBxiSztfczDYjCfiuO9QGIPU80En4lWx7Zw4MLOGOyqyxoQXpktp3Y-Nd2vF-vbBn_9xRdGmoReFPL3pxA_CB1HxceXGevKw3c8-DEkID_tstNwq400PvAhXolocxSi0-AbzaV5pMIWFm94v2Ju3L2tWBEZXMd3eJ6CX9IsHYoBhTV4Ki8_QyWkN8v8GQseYSVJykjkScmP6e_Xg')">
+<span class="material-symbols-outlined text-[14px] text-accent-orange">rate_review</span>
+<span>View Recommendation</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 4: AWS Cloud Virtual Intern — EduSkills -->
+<div class="relative group">
+<div class="absolute -left-[27px] sm:-left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-navy-900 group-hover:border-accent-blue transition-colors"></div>
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm space-y-2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 font-mono text-xs">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border font-semibold self-start sm:self-auto">SUMMER INTERNSHIP</span>
+<span class="text-navy-500 text-[11px]">Year to confirm</span>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-bold text-navy-900">AWS Cloud Virtual Intern</h3>
+<p class="text-xs font-mono text-accent-blue font-medium">EduSkills</p>
+</div>
+<p class="text-sm text-navy-700 leading-relaxed">
+            Worked on a weather-data visualization project, exploring ways to process and present weather data using Python and AWS Cloud Functions only.
+          </p>
+</div>
+</div>
+<!-- Item 5: AI Annotation Intern — Student Tribe -->
+<div class="relative group">
+<div class="absolute -left-[27px] sm:-left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-navy-900 group-hover:border-accent-blue transition-colors"></div>
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm space-y-2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 font-mono text-xs">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border font-semibold self-start sm:self-auto">MAY – JULY 2025</span>
+<span class="text-navy-500 text-[11px]">Data Operations</span>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-bold text-navy-900">AI Annotation Intern</h3>
+<p class="text-xs font-mono text-accent-orange font-medium">Student Tribe</p>
+</div>
+<p class="text-sm text-navy-700 leading-relaxed">
+            Participated in data annotation activities.
+          </p>
+<div class="pt-1">
+<button class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-800 text-xs font-mono transition-colors" onclick="openCertModal('Student Tribe — AI Annotation Internship Certificate', 'Tenure: May to July 2025 • Student Tribe', 'https://lh3.googleusercontent.com/aida-public/AB6AXuDPDlihUtrRv5_5Hkt8HDe1Fe4Qi3pXbVeU8jvA4I4PdqqV4fVpziNdxPc7feUPgtPoFIqv5kmpcEBbep0ekBW-8Gx8wQJyr8Ef414lW55lz_xHu_dSgNxKJzY_3vrkbm1FYhl4SIhPdeCAvLHZMEKX3kOvv_pGq9w_9fltAPY4h6lH2_NzA6uQ2nKaxWmXQTcKF6yMh4qmBi3cYOB-CkyBwn6ALV_7AFY4cAh8iFP3fQgEXDFbVPRxzcode_j7zlH1NA')">
+<span class="material-symbols-outlined text-[14px] text-accent-blue">verified</span>
+<span>View Certificate</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 6: Documentation Lead — Bachpan Prayas -->
+<div class="relative group">
+<div class="absolute -left-[27px] sm:-left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-navy-900 group-hover:border-accent-blue transition-colors"></div>
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm space-y-2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 font-mono text-xs">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border font-semibold self-start sm:self-auto">MARCH 2025 – APRIL 2026</span>
+<span class="text-navy-500 text-[11px]">Organizational Communications</span>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-bold text-navy-900">Documentation Lead</h3>
+<p class="text-xs font-mono text-accent-blue font-medium">Bachpan Prayas</p>
+</div>
+<p class="text-sm text-navy-700 leading-relaxed">
+            Managed official records and written communication, drafted letters, managed permissions, maintained event summaries and meeting notes, and managed the organization’s official email account.
+          </p>
+</div>
+</div>
+<!-- Item 7: Writing Intern — Marpu Foundation -->
+<div class="relative group">
+<div class="absolute -left-[27px] sm:-left-[31px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-navy-900 group-hover:border-accent-blue transition-colors"></div>
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm space-y-2">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 font-mono text-xs">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border font-semibold self-start sm:self-auto">APRIL 30 – MAY 9, 2024</span>
+<span class="text-navy-500 text-[11px]">Social Wing</span>
+</div>
+<div>
+<h3 class="text-base sm:text-lg font-bold text-navy-900">Writing Intern, Social Awareness Wing</h3>
+<p class="text-xs font-mono text-accent-orange font-medium">Marpu Foundation</p>
+</div>
+<p class="text-sm text-navy-700 leading-relaxed">
+            Completed a writing internship focusing on social awareness communication.
+          </p>
+</div>
+</div>
+</div>
+<!-- Additional Involvement Tags -->
+<div class="p-4 rounded border border-parchment-border bg-white shadow-sm">
+<div class="font-mono text-xs font-bold text-navy-900 uppercase tracking-wider mb-2">Additional Campus &amp; Community Involvements</div>
+<div class="flex flex-wrap gap-2 font-mono text-xs">
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-800">Member, Student Developers Community (SDC)</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-800">Volunteer, Sreenidhi Cancer Foundation (SCF)</span>
+<span class="px-2.5 py-1 rounded bg-parchment-low border border-parchment-border text-navy-800">Cadet, National Cadet Corps (NCC)</span>
+</div>
+</div>
+</section>
+<!-- 5. MORE PROJECTS -->
+<section class="space-y-6" id="more-projects">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-parchment-border pb-3">
+<div>
+<span class="font-mono text-xs font-semibold text-accent-blue uppercase tracking-wider">SECTION 05 // EXTENDED REPOSITORY</span>
+<h2 class="text-2xl sm:text-3xl font-bold text-navy-900 tracking-tight mt-0.5">More Projects</h2>
+</div>
+<p class="font-mono text-xs text-navy-600">Verified Web, Vision &amp; Desktop Systems</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<!-- 1. Curio -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between hover:border-navy-900/40 transition-all">
+<div class="space-y-2">
+<div class="flex items-center justify-between font-mono text-[11px]">
+<span class="text-accent-blue font-semibold">MERN STACK</span>
+<span class="text-navy-500">Recommendation</span>
+</div>
+<h3 class="text-base font-bold text-navy-900">Curio — Personalized Recommendation Platform</h3>
+<p class="text-xs text-navy-700 leading-relaxed">
+            Full-stack MERN app using views and likes for rule-based recommendations with search, category filters, and saved items.
+          </p>
+</div>
+<div class="pt-4 space-y-2 border-t border-parchment-border-subtle mt-4">
+<div class="flex flex-wrap gap-1 font-mono text-[10px]">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">MongoDB</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Express.js</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">React</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Node.js</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Vite</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">CSS</span>
+</div>
+<div class="flex items-center gap-4 pt-1 font-mono text-xs">
+<a class="inline-flex items-center gap-1 text-accent-blue font-semibold hover:underline" href="https://curio-recomendation-system-1.onrender.com/" rel="noopener noreferrer" target="_blank">
+<span>Live App</span>
+<span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</a>
+<span class="text-parchment-border">•</span>
+<a class="inline-flex items-center gap-1 text-navy-700 hover:text-navy-900" href="https://github.com/ShamiliAluru/Curio-Recomendation-System" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[13px]">code</span>
+<span>GitHub</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 2. WasteWise -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between hover:border-navy-900/40 transition-all">
+<div class="space-y-2">
+<div class="flex items-center justify-between font-mono text-[11px]">
+<span class="text-accent-blue font-semibold">COMPUTER VISION</span>
+<span class="text-navy-500">12 Classes</span>
+</div>
+<h3 class="text-base font-bold text-navy-900">WasteWise — AI Waste Classification Assistant</h3>
+<p class="text-xs text-navy-700 leading-relaxed">
+            Classifies waste into 12 dataset classes using MobileNetV2 transfer learning with disposal/reuse hints.
+          </p>
+</div>
+<div class="pt-4 space-y-2 border-t border-parchment-border-subtle mt-4">
+<div class="flex flex-wrap gap-1 font-mono text-[10px]">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Python</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">TensorFlow/Keras</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">MobileNetV2</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Streamlit</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Pillow</span>
+</div>
+<div class="flex items-center gap-4 pt-1 font-mono text-xs">
+<a class="inline-flex items-center gap-1 text-accent-blue font-semibold hover:underline" href="https://wastewiseimagecollectionandclassification.streamlit.app/" rel="noopener noreferrer" target="_blank">
+<span>Live App</span>
+<span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</a>
+<span class="text-parchment-border">•</span>
+<a class="inline-flex items-center gap-1 text-navy-700 hover:text-navy-900" href="https://github.com/ShamiliAluru/Wastewise-Classification-" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[13px]">code</span>
+<span>GitHub</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 3. Signly -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between hover:border-navy-900/40 transition-all">
+<div class="space-y-2">
+<div class="flex items-center justify-between font-mono text-[11px]">
+<span class="text-accent-blue font-semibold">EDGE AI &amp; ACCESSIBILITY</span>
+<span class="text-navy-500">ISL Studio</span>
+</div>
+<h3 class="text-base font-bold text-navy-900">Signly — ISL Learning Studio</h3>
+<p class="text-xs text-navy-700 leading-relaxed">
+            Educational prototype Indian Sign Language app with visual vocabulary, example signs, quiz, and classification for 20 word-signs and 35 fingerspelled characters.
+          </p>
+</div>
+<div class="pt-4 space-y-2 border-t border-parchment-border-subtle mt-4">
+<div class="flex flex-wrap gap-1 font-mono text-[10px]">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Python</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Streamlit</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">PyTorch</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">torchvision</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Pillow</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">NumPy</span>
+</div>
+<div class="flex items-center gap-4 pt-1 font-mono text-xs">
+<a class="inline-flex items-center gap-1 text-accent-blue font-semibold hover:underline" href="https://hand-gesture-recognition-fb54encd9sarrvcjbjubaf.streamlit.app/" rel="noopener noreferrer" target="_blank">
+<span>Live App</span>
+<span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</a>
+<span class="text-parchment-border">•</span>
+<a class="inline-flex items-center gap-1 text-navy-700 hover:text-navy-900" href="https://github.com/ShamiliAluru/Hand-Gesture-Recognition" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[13px]">code</span>
+<span>GitHub</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 4. Pomodoro Pro -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between hover:border-navy-900/40 transition-all">
+<div class="space-y-2">
+<div class="flex items-center justify-between font-mono text-[11px]">
+<span class="text-accent-orange font-semibold">DESKTOP SOFTWARE</span>
+<span class="text-navy-500">Tkinter GUI</span>
+</div>
+<h3 class="text-base font-bold text-navy-900">Pomodoro Pro — Productivity App</h3>
+<p class="text-xs text-navy-700 leading-relaxed">
+            Python/Tkinter desktop app with 25m focus/5m break timer, task checklist, and calendar notes.
+          </p>
+</div>
+<div class="pt-4 space-y-2 border-t border-parchment-border-subtle mt-4">
+<div class="flex flex-wrap gap-1 font-mono text-[10px]">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Python</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">Tkinter</span>
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-800 border border-parchment-border">ttkbootstrap</span>
+</div>
+<div class="flex items-center gap-4 pt-1 font-mono text-xs">
+<a class="inline-flex items-center gap-1 text-accent-blue font-semibold hover:underline" href="https://pomodoro-app-mvd3dy3hjtdcaqyzzuxpmk.streamlit.app/" rel="noopener noreferrer" target="_blank">
+<span>Live App</span>
+<span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</a>
+<span class="text-parchment-border">•</span>
+<a class="inline-flex items-center gap-1 text-navy-700 hover:text-navy-900" href="https://github.com/ShamiliAluru/Pomodoro-App" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[13px]">code</span>
+<span>GitHub</span>
+</a>
+</div>
+</div>
+</div>
+<!-- 5. Balance Buddy -->
+<div class="p-5 rounded border border-parchment-border bg-white shadow-sm flex flex-col justify-between hover:border-navy-900/40 transition-all md:col-span-2">
+<div class="space-y-2">
+<div class="flex items-center justify-between font-mono text-[11px]">
+<span class="text-accent-orange font-semibold">WEB APPLICATION</span>
+<span class="text-navy-500">Student Support</span>
+</div>
+<h3 class="text-base font-bold text-navy-900">Balance Buddy — Student Support App</h3>
+<p class="text-xs text-navy-700 leading-relaxed">
+            Student-focused app for B.Tech learners navigating academic pressure, habits, and direction.
+          </p>
+</div>
+<div class="pt-4 space-y-2 border-t border-parchment-border-subtle mt-4">
+<div class="flex items-center gap-4 pt-1 font-mono text-xs">
+<a class="inline-flex items-center gap-1 text-accent-blue font-semibold hover:underline" href="https://lucent-rolypoly-b57ff9.netlify.app/" rel="noopener noreferrer" target="_blank">
+<span>Live App</span>
+<span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</a>
+<span class="text-parchment-border">•</span>
+<a class="inline-flex items-center gap-1 text-navy-700 hover:text-navy-900" href="https://github.com/ShamiliAluru/Balance-Buddy" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[13px]">code</span>
+<span>GitHub</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. CERTIFICATES & RECOGNITION (LIST VIEW ONLY - MODAL ON CLICK) -->
+<section class="space-y-6" id="certificates">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-parchment-border pb-3">
+<div>
+<span class="font-mono text-xs font-semibold text-accent-blue uppercase tracking-wider">SECTION 06 // AUDITED CREDENTIALS</span>
+<h2 class="text-2xl sm:text-3xl font-bold text-navy-900 tracking-tight mt-0.5">Certificates &amp; Recognition</h2>
+</div>
+<p class="font-mono text-xs text-navy-600">Select any record to inspect document</p>
+</div>
+<!-- Clean table/card registry (No certificate images rendered in page flow) -->
+<div class="overflow-x-auto rounded border border-parchment-border bg-white shadow-sm">
+<table class="w-full text-left text-xs font-mono border-collapse">
+<thead>
+<tr class="bg-parchment-low border-b border-parchment-border text-[11px] text-navy-700">
+<th class="py-3 px-4 font-semibold">Title / Description</th>
+<th class="py-3 px-4 font-semibold hidden md:table-cell">Issuer &amp; Affiliation</th>
+<th class="py-3 px-4 font-semibold hidden sm:table-cell">Date</th>
+<th class="py-3 px-4 font-semibold text-right">Verification</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-parchment-border-subtle text-navy-800">
+<!-- 1. AWS Academy -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">AWS Academy Graduate — Cloud Foundations</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">AWS Academy • Sept 29, 2025 • 20 hrs</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Accredited 20-hour cloud architecture curriculum</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">AWS Academy</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">Sept 29, 2025</td>
+<td class="py-3 px-4 text-right">
+<a class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-blue-50 text-accent-blue hover:bg-blue-100 font-semibold transition-colors" href="https://www.credly.com/go/uxEHIGIi" rel="noopener noreferrer" target="_blank">
+<span>Verify Badge</span>
+<span class="material-symbols-outlined text-[13px]">open_in_new</span>
+</a>
+</td>
+</tr>
+<!-- 2. AI Agents Workshop -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">AI Agents Workshop</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">SDC–SNIST Chapter • Aug 7, 2025</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Autonomous workflows and agentic LLM architecture</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">SDC–SNIST Chapter</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">Aug 7, 2025</td>
+<td class="py-3 px-4 text-right">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-600 text-[11px]">Recorded</span>
+</td>
+</tr>
+<!-- 3. HackWave 3.0 -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">HackWave 3.0 — Five Star Performer</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">SNIST CDC • Sept 4–5, 2026</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Certificate of Appreciation &amp; Certificate of Distinction</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">SNIST CDC</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">Sept 4–5, 2026</td>
+<td class="py-3 px-4 text-right">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-emerald-700 text-[11px]">Distinction</span>
+</td>
+</tr>
+<!-- 4. Marpu Foundation -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">Writing Intern, Social Awareness Wing</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">Marpu Foundation • April 30–May 9, 2024</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Editorial documentation and outreach communications</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">Marpu Foundation</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">Apr–May 2024</td>
+<td class="py-3 px-4 text-right">
+<span class="px-2 py-0.5 rounded bg-parchment-low text-navy-600 text-[11px]">Internship</span>
+</td>
+</tr>
+<!-- 5. Cisco Python Essentials 1 -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">Python Essentials 1</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">Cisco Networking Academy // SNIST • May 26, 2025</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Algorithmic logic, core structures and standard modules</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">Cisco Networking Academy (SNIST)</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">May 26, 2025</td>
+<td class="py-3 px-4 text-right">
+<button class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-900 font-semibold transition-colors" onclick="openCertModal('Cisco Networking Academy — Python Essentials 1', 'Offered through SNIST • May 26, 2025', 'https://lh3.googleusercontent.com/aida-public/AB6AXuA1523SkQbHnfJVpVIbxxvi7kw6T7xmQPnhY2zHkhFVOJ3AzzykeDb3OMY4jNqeADRsH0gGYqHfRm3NDtIptu79bdpG60W1-qNeVlxlCtNYjapklDDdBtK2355Dr0xA9lO_5kDRezenJGofhUAt4X-8lPG6RhV0rLUs-jzu1iO6rNj2aYqNPS78w2xGmQJnTG5k07HbdQ_h5NON_2es2wOrZLY3Xo93ncpd4QiVRp9R3vLoDmA6c-hDy16QofS9IcvkoQ')">
+<span>View Certificate</span>
+<span class="material-symbols-outlined text-[13px]">visibility</span>
+</button>
+</td>
+</tr>
+<!-- 6. Cisco Introduction to Cybersecurity -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">Introduction to Cybersecurity</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">Cisco Networking Academy // SNIST • May 24, 2025</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Network protection principles, confidentiality, and threat mitigation</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">Cisco Networking Academy (SNIST)</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">May 24, 2025</td>
+<td class="py-3 px-4 text-right">
+<button class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-900 font-semibold transition-colors" onclick="openCertModal('Cisco Networking Academy — Introduction to Cybersecurity', 'Offered through SNIST • May 24, 2025', 'https://lh3.googleusercontent.com/aida-public/AB6AXuB6ECKzb6ddINaCCR8F5a50gEwZL0D2lmU5rxRj-NjfzA0TJrtppw5cFCZacWCyK9ur6PmLEOMhbOWhvmkmYvo6olmB7__hgnV6F4kqtlls41GQfDPFjgJ8is_RrzjqG8LY15DDvypZ0YGXTex9S-HaZROkSTOi0PQWXQpkT9FqiqPWVPORHqibkUfbSbh7AnRt8vvD_rrEuQ3J7boy-TbevZsHw2-AMUfCuFDHP31qC67Wsy31CEz-qH2FQJa4ezgjJw')">
+<span>View Certificate</span>
+<span class="material-symbols-outlined text-[13px]">visibility</span>
+</button>
+</td>
+</tr>
+<!-- 7. Cisco Discovering Entrepreneurship -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">Discovering Entrepreneurship</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">Cisco Networking Academy // SNIST • May 26, 2025</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Technology commercialization and venture modeling</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">Cisco Networking Academy (SNIST)</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">May 26, 2025</td>
+<td class="py-3 px-4 text-right">
+<button class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-900 font-semibold transition-colors" onclick="openCertModal('Cisco Networking Academy — Discovering Entrepreneurship', 'Offered through SNIST • May 26, 2025', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBS3MkftAAxhSTvjr1ycggHHm2ehtqPx_emYGiOtmX97ouAcbMgHJHLeOeT6WdNMiFFvFd7QzP4cHeBS6Igl7IVP3Rjc5Q4WRhCEQT-x-_Murc_Hvt7cP1fYHvx8QHZeaiyPzpl2fE-UlI7ZE3I2fgSi3MBp_59-C0FoGIj-_UGdpyjl-RNmK1IF9dbVObPtbXHAfEsxz1vB2Kl242yluNVgzHnSCPAd7E932dbpNCHAKUpMSGXB02Ok5IC3D1KQcSGKA')">
+<span>View Certificate</span>
+<span class="material-symbols-outlined text-[13px]">visibility</span>
+</button>
+</td>
+</tr>
+<!-- 8. SkillCraft Machine Learning Internship -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">Machine Learning Internship</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">SkillCraft Technology • Nov 30, 2025</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Practical machine learning modeling and data pipeline exercises</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">SkillCraft Technology</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">Nov 30, 2025</td>
+<td class="py-3 px-4 text-right">
+<button class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-900 font-semibold transition-colors" onclick="openCertModal('SkillCraft Technology — Machine Learning Internship', 'SkillCraft Technology • Nov 30, 2025', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCP00OsCStOSL48hPL9bXM29sSvKZLsaLMrU49AO6Y2zhA40dW5S1Rlt7Jeo5pkp7yMBmHbPoFer171vvKS-UZPyA6ldDzgJMUR-rnwyBwAyhvnKtm2duCT05TUYGsA2xWzzvCJoZDdhmcOGeVItukAfxKZoXsu0OavQIAHwZCCaZEMG1RU0uLzks99LcwExrBYvzdLo_r6DjnY13nVctMqJKVqgxMq0mOf1DCdtsM-jwO7o1EwGcwDAV84JIMgnoXlTg')">
+<span>View Certificate</span>
+<span class="material-symbols-outlined text-[13px]">visibility</span>
+</button>
+</td>
+</tr>
+<!-- 9. SkillCraft LOR -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">Letter of Recommendation</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">Tech Lead Pranav Bansal, SkillCraft • Nov 30, 2025</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Formal commendation by Tech Lead Pranav Bansal</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">SkillCraft Technology</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">Nov 30, 2025</td>
+<td class="py-3 px-4 text-right">
+<button class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-900 font-semibold transition-colors" onclick="openCertModal('SkillCraft Technology — Letter of Recommendation', 'Tech Lead Pranav Bansal • Nov 30, 2025', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCQXW8Ukrqrkj4ms4i-Daj5ZyPbBN5CVMR2EZL03YBjE6xdfXWxTkNBxiSztfczDYjCfiuO9QGIPU80En4lWx7Zw4MLOGOyqyxoQXpktp3Y-Nd2vF-vbBn_9xRdGmoReFPL3pxA_CB1HxceXGevKw3c8-DEkID_tstNwq400PvAhXolocxSi0-AbzaV5pMIWFm94v2Ju3L2tWBEZXMd3eJ6CX9IsHYoBhTV4Ki8_QyWkN8v8GQseYSVJykjkScmP6e_Xg')">
+<span>View Letter</span>
+<span class="material-symbols-outlined text-[13px]">visibility</span>
+</button>
+</td>
+</tr>
+<!-- 10. Student Tribe AI Annotation -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">AI Annotation Internship Certificate</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">Student Tribe • May–July 2025</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Dataset tagging, annotation workflows and quality validation</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">Student Tribe</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">May–July 2025</td>
+<td class="py-3 px-4 text-right">
+<button class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-900 font-semibold transition-colors" onclick="openCertModal('Student Tribe — AI Annotation Internship Certificate', 'May–July 2025 • Student Tribe', 'https://lh3.googleusercontent.com/aida-public/AB6AXuDPDlihUtrRv5_5Hkt8HDe1Fe4Qi3pXbVeU8jvA4I4PdqqV4fVpziNdxPc7feUPgtPoFIqv5kmpcEBbep0ekBW-8Gx8wQJyr8Ef414lW55lz_xHu_dSgNxKJzY_3vrkbm1FYhl4SIhPdeCAvLHZMEKX3kOvv_pGq9w_9fltAPY4h6lH2_NzA6uQ2nKaxWmXQTcKF6yMh4qmBi3cYOB-CkyBwn6ALV_7AFY4cAh8iFP3fQgEXDFbVPRxzcode_j7zlH1NA')">
+<span>View Certificate</span>
+<span class="material-symbols-outlined text-[13px]">visibility</span>
+</button>
+</td>
+</tr>
+<!-- 11. Cambridge English Empower B1+ -->
+<tr class="hover:bg-parchment-low/60 transition-colors">
+<td class="py-3 px-4">
+<div class="font-bold text-navy-900 font-sans text-sm">Cambridge English Empower B1+</div>
+<div class="text-[11px] text-navy-500 md:hidden mt-0.5">Cambridge University Press &amp; Assessment • Hyderabad</div>
+<div class="text-[11px] text-navy-600 hidden md:block">Certified professional English communication and technical discourse</div>
+</td>
+<td class="py-3 px-4 hidden md:table-cell font-sans text-xs">Cambridge University Press &amp; Assessment</td>
+<td class="py-3 px-4 hidden sm:table-cell text-navy-600">Hyderabad</td>
+<td class="py-3 px-4 text-right">
+<button class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-parchment-low hover:bg-parchment-border text-navy-900 font-semibold transition-colors" onclick="openCertModal('Cambridge University Press &amp; Assessment — Cambridge English Empower B1+', 'Venue: Hyderabad • SNIST', 'https://lh3.googleusercontent.com/aida-public/AB6AXuC8CfeGrzyp1-J23BVz-vy7jBT4taYGSfdiA-ljp4ZGC88W2RVxSOQ1hf-f7aPncRIqzrYThhrAQHX0OJ_C-z887_v8OhLOAwr0n1Y42ovxEY9tlnN-4lXKA0mK-Kl4VersES3rKxxSwER1NyfTTS9UbL4-mU5k36vTvcdpogS_XaxLbzQ4FiE_Ap-LJD8ruk66AMLZeK0ZCtp6p4OMFVEe4-uy0EjeQT_ApqycWaY-2xLSw5GnmQXxFwsg32PoH8x-lA')">
+<span>View Certificate</span>
+<span class="material-symbols-outlined text-[13px]">visibility</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- 7. EDUCATION -->
+<section class="space-y-6" id="education">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-parchment-border pb-3">
+<div>
+<span class="font-mono text-xs font-semibold text-accent-blue uppercase tracking-wider">SECTION 07 // ACADEMIC FOUNDATION</span>
+<h2 class="text-2xl sm:text-3xl font-bold text-navy-900 tracking-tight mt-0.5">Education</h2>
+</div>
+<p class="font-mono text-xs text-navy-600">Institution &amp; Degree Details</p>
+</div>
+<div class="p-6 sm:p-8 rounded border border-parchment-border bg-white shadow-sm flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+<div class="space-y-3 max-w-2xl">
+<div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded bg-blue-50 text-accent-blue font-mono text-xs font-semibold">
+<span>UNDERGRADUATE DEGREE PROGRAM</span>
+</div>
+<div>
+<h3 class="text-xl sm:text-2xl font-bold text-navy-900 tracking-tight">
+            Bachelor of Technology in Information Technology
+          </h3>
+<p class="text-sm text-navy-700 mt-1 font-medium">
+            Sreenidhi Institute of Science and Technology (SNIST)
+          </p>
+</div>
+<p class="text-xs text-navy-600 leading-relaxed font-sans">
+          Core undergraduate study covering data structures and algorithms, database management, software design, and applied computational disciplines.
+        </p>
+</div>
+<div class="lg:w-80 p-5 rounded border border-parchment-border bg-parchment-low flex flex-col justify-center items-start lg:items-end font-mono">
+<span class="text-[10px] text-navy-400 uppercase tracking-widest">Standing &amp; GPA</span>
+<div class="text-3xl font-bold text-navy-900 my-1">GPA 8.9 <span class="text-sm font-normal text-navy-500">/ 10</span></div>
+<span class="text-xs text-accent-blue font-semibold">Final year · Expected graduation: 2027</span>
+<span class="text-[11px] text-navy-600 mt-1">GPA: 8.9/10</span>
+</div>
+</div>
+</section>
+<!-- 8. ABOUT -->
+<section class="space-y-6" id="about">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-parchment-border pb-3">
+<div>
+<span class="font-mono text-xs font-semibold text-accent-blue uppercase tracking-wider">SECTION 08 // PERSPECTIVE</span>
+<h2 class="text-2xl sm:text-3xl font-bold text-navy-900 tracking-tight mt-0.5">Brief About</h2>
+</div>
+<p class="font-mono text-xs text-navy-600">Personal Note</p>
+</div>
+<div class="p-6 sm:p-8 rounded border border-parchment-border bg-white shadow-sm">
+<p class="text-base sm:text-lg text-navy-800 leading-relaxed font-sans max-w-4xl">
+        I enjoy understanding how things work, solving problems with code, and turning data into useful tools. Through projects, internships, and campus involvement, I’m continuing to grow my skills in software, analytics, and machine learning.
+      </p>
+</div>
+</section>
+<!-- 9. CONTACT -->
+<section class="space-y-6" id="contact">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-parchment-border pb-3">
+<div>
+<span class="font-mono text-xs font-semibold text-accent-blue uppercase tracking-wider">SECTION 09 // DISPATCH</span>
+<h2 class="text-2xl sm:text-3xl font-bold text-navy-900 tracking-tight mt-0.5">Let's Connect</h2>
+</div>
+<p class="font-mono text-xs text-navy-600">Direct Inquiries &amp; Opportunities</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Contact Channels -->
+<div class="lg:col-span-5 space-y-4">
+<div class="p-6 rounded border border-parchment-border bg-white shadow-sm space-y-4">
+<h3 class="text-base font-bold text-navy-900 tracking-tight">Direct Channels</h3>
+<div class="space-y-3 font-mono text-xs">
+<div class="flex items-start gap-3 p-3 rounded bg-parchment-low border border-parchment-border-subtle">
+<span class="material-symbols-outlined text-accent-blue text-[18px] mt-0.5">mail</span>
+<div>
+<div class="text-[10px] text-navy-400 uppercase">Email</div>
+<a class="text-navy-900 font-semibold hover:text-accent-blue transition-colors" href="mailto:shamilialuru@gmail.com">
+                  shamilialuru@gmail.com
+                </a>
+</div>
+</div>
+<div class="flex items-start gap-3 p-3 rounded bg-parchment-low border border-parchment-border-subtle">
+<span class="material-symbols-outlined text-accent-orange text-[18px] mt-0.5">hub</span>
+<div>
+<div class="text-[10px] text-navy-400 uppercase">LinkedIn Profile</div>
+<a class="text-navy-900 font-semibold hover:text-accent-blue transition-colors" href="https://www.linkedin.com/in/shamili-aluru-9035012b2" rel="noopener noreferrer" target="_blank">
+                  linkedin.com/in/shamili-aluru-9035012b2
+                </a>
+</div>
+</div>
+<div class="flex items-start gap-3 p-3 rounded bg-parchment-low border border-parchment-border-subtle">
+<span class="material-symbols-outlined text-navy-900 text-[18px] mt-0.5">terminal</span>
+<div>
+<div class="text-[10px] text-navy-400 uppercase">GitHub Profile</div>
+<a class="text-navy-900 font-semibold hover:text-accent-blue transition-colors" href="https://github.com/ShamiliAluru" rel="noopener noreferrer" target="_blank">
+                  github.com/ShamiliAluru
+                </a>
+</div>
+</div>
+</div>
+<div class="p-3 rounded bg-blue-50 border border-blue-200 text-xs font-mono text-navy-800 space-y-1">
+<div class="font-bold text-accent-blue">ACTIVE CANDIDATE</div>
+<p class="text-[11px] leading-relaxed">
+              Open to entry-level software, data, and applied machine learning roles. Hyderabad based, relocatable / remote open.
+            </p>
+</div>
+</div>
+</div>
+<!-- Contact Form Prototype -->
+<div class="lg:col-span-7">
+<form class="p-6 sm:p-8 rounded border border-parchment-border bg-white shadow-sm space-y-4" id="contact-form" onsubmit="event.preventDefault(); showFormConfirmation();">
+<h3 class="text-base font-bold text-navy-900 tracking-tight">Send a Direct Message</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="space-y-1">
+<label class="block font-mono text-[11px] font-semibold text-navy-700 uppercase" for="name">Your Name</label>
+<input class="w-full px-3 py-2 text-sm rounded border border-parchment-border bg-parchment-low focus:bg-white focus:outline-none focus:border-accent-blue" id="name" placeholder="Name" required="" type="text"/>
+</div>
+<div class="space-y-1">
+<label class="block font-mono text-[11px] font-semibold text-navy-700 uppercase" for="email">Your Email</label>
+<input class="w-full px-3 py-2 text-sm rounded border border-parchment-border bg-parchment-low focus:bg-white focus:outline-none focus:border-accent-blue" id="email" placeholder="name@company.com" required="" type="email"/>
+</div>
+</div>
+<div class="space-y-1">
+<label class="block font-mono text-[11px] font-semibold text-navy-700 uppercase" for="subject">Subject</label>
+<input class="w-full px-3 py-2 text-sm rounded border border-parchment-border bg-parchment-low focus:bg-white focus:outline-none focus:border-accent-blue" id="subject" placeholder="Entry-Level Technical Opportunity" required="" type="text"/>
+</div>
+<div class="space-y-1">
+<label class="block font-mono text-[11px] font-semibold text-navy-700 uppercase" for="message">Message</label>
+<textarea class="w-full px-3 py-2 text-sm rounded border border-parchment-border bg-parchment-low focus:bg-white focus:outline-none focus:border-accent-blue resize-none" id="message" placeholder="Role requirements, questions, or details..." required="" rows="4"></textarea>
+</div>
+<p class="font-mono text-[11px] text-navy-500">
+            Note: Front-end prototype form. Please reach out directly via email or LinkedIn for immediate communication.
+          </p>
+<button class="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-navy-900 text-white font-mono text-xs font-semibold tracking-tight hover:bg-accent-blue transition-colors shadow-sm" type="submit">
+<span class="material-symbols-outlined text-[16px]">send</span>
+<span>Send Message</span>
+</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- FOOTER (NO RÉSUMÉ LINK) -->
+<footer class="w-full border-t border-parchment-border bg-white mt-16 py-8">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-4 font-mono text-xs text-navy-600">
+<div class="flex items-center gap-2">
+<span class="font-bold text-navy-900">Shamili Aluru</span>
+<span>•</span>
+<span class="text-accent-orange font-semibold">Engineer's Field Notes Edition</span>
+</div>
+<nav class="flex flex-wrap items-center justify-center gap-4 text-[11px]">
+<a class="hover:text-accent-blue" href="#hero">Top</a>
+<a class="hover:text-accent-blue" href="#projects">Projects</a>
+<a class="hover:text-accent-blue" href="#toolkit">Toolkit</a>
+<a class="hover:text-accent-blue" href="#experience">Experience</a>
+<a class="hover:text-accent-blue" href="#certificates">Certificates</a>
+<a class="hover:text-accent-blue" href="#education">Education</a>
+<a class="hover:text-accent-blue" href="#about">About</a>
+<a class="hover:text-accent-blue" href="#contact">Contact</a>
+</nav>
+<div class="text-[11px]">
+      © 2025 Shamili Aluru. Documented with rigor.
+    </div>
+</div>
+</footer>
+<!-- LIGHTBOX MODAL FOR CERTIFICATES -->
+<div class="fixed inset-0 z-50 bg-navy-900/80 backdrop-blur-sm hidden flex items-center justify-center p-4" id="cert-modal" onclick="closeCertModal()">
+<div class="relative max-w-3xl w-full max-h-[92vh] bg-white rounded border border-parchment-border shadow-2xl flex flex-col overflow-hidden" onclick="event.stopPropagation()">
+<!-- Modal Header -->
+<div class="px-5 py-3 border-b border-parchment-border bg-parchment-low flex items-center justify-between">
+<div>
+<h4 class="text-sm font-bold text-navy-900" id="modal-title">Certificate Document</h4>
+<p class="font-mono text-[11px] text-navy-600" id="modal-subtitle">Verified Credential</p>
+</div>
+<button aria-label="Close" class="w-8 h-8 rounded border border-parchment-border bg-white text-navy-700 hover:text-navy-900 flex items-center justify-center transition-colors" onclick="closeCertModal()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Modal Image Frame -->
+<div class="flex-1 p-4 bg-parchment overflow-auto flex items-center justify-center min-h-[320px]">
+<img alt="Certificate Document" class="max-w-full max-h-[72vh] object-contain rounded border border-parchment-border shadow-sm" id="modal-img" src=""/>
+</div>
+<!-- Modal Footer -->
+<div class="px-5 py-2.5 border-t border-parchment-border bg-white flex items-center justify-between font-mono text-xs">
+<span class="text-navy-500 text-[11px]">Shamili Aluru • Verified Portfolio Credential</span>
+<button class="px-3 py-1 rounded bg-navy-900 text-white text-[11px] hover:bg-accent-blue transition-colors" onclick="closeCertModal()">Close</button>
+</div>
+</div>
+</div>
+<!-- TOAST CONFIRMATION -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none px-4 py-3 rounded bg-navy-900 text-white font-mono text-xs flex items-center gap-2 shadow-xl border border-navy-700" id="toast">
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">check_circle</span>
+<span>Message recorded. Please reach out via email or LinkedIn for immediate communication!</span>
+</div>
+<!-- SCRIPTS -->
+<script>
+  function openCertModal(title, subtitle, imageSrc) {
+    const modal = document.getElementById('cert-modal');
+    const titleEl = document.getElementById('modal-title');
+    const subtitleEl = document.getElementById('modal-subtitle');
+    const imgEl = document.getElementById('modal-img');
+
+    titleEl.textContent = title;
+    subtitleEl.textContent = subtitle;
+    imgEl.src = imageSrc;
+
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCertModal() {
+    const modal = document.getElementById('cert-modal');
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeCertModal();
+    }
+  });
+
+  function showFormConfirmation() {
+    const toast = document.getElementById('toast');
+    const form = document.getElementById('contact-form');
+    if (form) form.reset();
+
+    toast.classList.remove('translate-y-24', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.remove('translate-y-0', 'opacity-100');
+      toast.classList.add('translate-y-24', 'opacity-0');
+    }, 4500);
+  }
+</script>
+</body></html>
